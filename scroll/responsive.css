@@ -1,0 +1,27 @@
+@media(max-width: 1000px){
+    #menu-btn{
+        display: inline-block;
+    }
+    .menu{
+        display: none;
+    }
+
+    #SNS{
+        /* text-align: center; */
+        max-width: 300px;
+
+    }
+
+    #SNS ul{
+        float: none;
+        margin-bottom: 50px;
+        /* text-align: center; */
+        /* background-color: black; */
+        /* margin-left: 20vw; */
+    }
+    
+    #twitter-feed{
+        float:none;
+        margin: 0 auto;
+    }
+}

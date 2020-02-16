@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+ font-family: "Hiragino Kaku Gothic ProN";
+/* font-family: 'M PLUS 1p', sans-serif; */
+
+}
+
+a {
+  text-decoration: none;
+}
+#menu-btn{
+    cursor: pointer;
+    float: left;
+    display: none;    
+    position: fixed;
+    margin: 10px;
+}
+
+#menu-btn div {
+    width: 35px;
+    height: 5px;
+    margin: 6px 0;
+    background-color: black;
+  }
+  
+#menu-modal{
+    background-color: white;
+    position: fixed;
+    top:0;
+    width: 150px;
+    height: 100vh;
+    display:none;  
+}
+
+.menu{
+    /* background-color: gray; */
+    float: left;
+    width: 15vw;
+    height: 100vh;
+    position: fixed;
+    
+}
+
+ul{
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu li{
+    line-height: 20px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.menu a{
+    color: black;
+
+}
+.menu a:hover{
+    background-color: #FEA0C2;
+}
+
+main{
+    float: right;
+    width: 85vw;
+    box-sizing: border-box;
+    padding: 10vh 50px;
+}
+
+#home{
+    padding-top: 45vh;
+    height: 100vh;
+    text-align: center;
+
+}
+
+#home img{
+    height: 35px;
+}
+#home span{
+    font-size: 30px;
+    color: black;
+}
+
+/* #about{
+    padding: 10vh 50px;
+} */
+
+#about-contents{
+    /* background-color: #F2F2F2; */
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+h1{
+    text-align: center;    margin-bottom: 50px;
+
+}
+#about p{
+    text-align: left;
+}
+
+#SNS{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+#SNS ul{
+    float: left;
+}
+#SNS img{
+    height: 20px;
+}
+
+#SNS a{
+    color: black;
+    font-size: 20px;
+}
+
+#SNS li{
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+#twitter-feed{
+    float: right;
+    width: 300px;
+    height: 450px;
+}
+
+#concert{
+    text-align: center;
+}
+
+#concert h2{
+    margin-bottom: 40px;
+}
+#concert span{
+    font-size: 15px;
+}
+
+#concert a{
+    text-decoration: underline;
+}
+
+#next{
+    margin-bottom: 180px;
+}
+
+.archive{
+    margin-bottom: 150px;
+
+}
+
+#contact-container{
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact h1{
+    margin-bottom: 0px;
+}
+
+#contact p{
+    margin-bottom: 0px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+input,textarea{
+    width: 300px;
+    border: 1px solid gray;
+    font-size: 100%
+}
+
+input{
+    height: 25px;
+}
+
+button{
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: "Hiragino Kaku Gothic ProN";
+    background-color:#ffffff;
+    border-radius: 5px;
+}
