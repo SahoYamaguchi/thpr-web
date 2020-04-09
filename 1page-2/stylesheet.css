@@ -1,0 +1,315 @@
+@font-face{
+    font-family: 'use-shirokuma';
+    src: url('/Users/saho/Library/Fonts/001Shirokuma-Regular.otf') format('opentype');
+}
+
+@font-face{
+    font-family: 'KozMin';
+    src: url('/Users/saho/Library/Fonts/Kozuka Mincho Pr6N R.ttf') ;
+}
+
+@font-face{
+    font-family: 'MkPop';
+    src: url('/Users/saho/Library/Fonts/851MkPOP_002.ttf') ;
+}
+
+body {
+  margin: 0;
+ font-family: 'use-shirokuma';
+ /* position: relative; */
+/*    font-weight: normal;*/
+/* font-family: 'M PLUS 1p', sans-serif; */
+
+}
+
+a {
+  text-decoration: none;
+}
+
+p{
+    font-family: 'KozMin';
+    font-weight: 40;
+    font-size: 0.8rem;
+}
+
+h1 span{
+    background-color: white;
+    font-size: 3rem;
+    font-family: "use-shirokuma";
+
+}
+header,footer{
+    z-index: 10;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    /* border-width: 10vh 10vw; */
+    /* border-style: solid; */
+    background-color: #666;
+    /* display: flex; */
+}
+
+footer{
+    /* position: absolute; */
+    position: fixed;
+
+    bottom: 0;
+    height: 10vh;
+    /* margin-top: 90vh; */
+}
+
+
+
+#box-title{
+    z-index: 20;
+    margin: 2vh auto;
+    text-align: center;
+    font-size: 4vh;
+    color: #fff;
+}
+
+#box-title span{
+    font-family: "MkPop";
+    border-bottom: solid 0.5px white;
+}
+/* #menu-btn{
+    cursor: pointer;
+    float: left;
+    display: none;    
+    position: fixed;
+    margin: 10px;
+}
+
+#menu-btn div {
+    width: 35px;
+    height: 5px;
+    margin: 6px 0;
+    background-color: black;
+  }
+  
+#menu-modal{
+    background-color: white;
+    position: fixed;
+    top:0;
+    width: 150px;
+    height: 100vh;
+    display:none;  
+} */
+
+/* .menu{
+    background-color: gray;
+    float: left;
+    width: 15vw;
+    height: 100vh;
+    position: fixed;
+    
+}
+
+ul{
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu li{
+    line-height: 20px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.menu a{
+    color: black;
+
+}
+.menu a:hover{
+    background-color: #FEA0C2;
+} */
+
+main {
+    display : flex;
+}
+#left, #right{
+    width: 10%;
+    background-color: #666;
+    /* height: 100vh; */
+    /* display: flex; */
+}
+#content{
+    float: left;
+    width: 80%;
+    /* display: flex; */
+    /* box-sizing: border-box; */
+    /* padding: 10vh 50px; */
+}
+
+#title{
+    padding-top: 30vh;
+    height: 50vh;
+    font-size: 20vw;
+    text-align: center;
+    background-color: #FAC4C4;
+}
+
+#slash-1{
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+   
+    /*ここで三角形のサイズを決める。
+    必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
+    border-width: 100px 0 0 80vw;
+   
+    border-color: #FAC4C4 transparent  transparent  #ACDEF1  ;
+  }
+/* #about{
+    padding: 10vh 50px;
+} */
+
+#about-contents{
+    background-color: #ACDEF1;
+    /* max-width: 500px; */
+    padding: 30px 15vw;
+    /* margin-bottom: 200px; */
+}
+
+/* h1{
+    text-align: center;    margin-bottom: 50px;
+} */
+#about-contents p{
+    text-align: left;
+    font-size: 0.8em;
+
+}
+
+#SNS{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+#SNS ul{
+    float: left;
+}
+#SNS img{
+    height: 20px;
+}
+
+#SNS a{
+    color: black;
+    font-size: 20px;
+}
+
+#SNS li{
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+#twitter-feed{
+    float: right;
+    width: 300px;
+    height: 450px;
+}
+
+#slash-2{
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+   
+    /*ここで三角形のサイズを決める。
+    必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
+    border-width:  0 0 100px 80vw ;
+   
+    border-color: transparent  transparent #98EC9A #ACDEF1    ;
+  }
+
+#concert{
+    text-align: left;
+    font-family: "Kozmin";
+    background-color: #98EC9A;
+    padding: 30px 15vw;
+}
+
+#concert a{
+    text-decoration: underline;
+    font-family: "use-shirokuma";
+    font-size: 30px;
+    color: gray;
+}
+
+#concert h1{
+    text-align: right;
+}
+
+#concert p{
+    font-size: 0.8em;
+}
+#next{
+    margin-bottom: 180px;
+}
+
+.archive{
+    margin-bottom: 150px;
+
+}
+
+#slash-3{
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+   
+    /*ここで三角形のサイズを決める。
+    必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
+    border-width: 100px 0 0  80vw ;
+   
+    border-color: #98EC9A transparent  transparent  #EF7575;
+  }
+
+#movie{
+    text-align: center;
+    background-color: #EF7575;
+    padding: 30px 0vw;
+}
+
+#contact{
+    /* max-width: 300px; */
+    margin: 100px auto;
+    text-align: center;
+}
+
+#contact h1{
+    margin-bottom: 0px;
+}
+
+#contact p{
+    margin-bottom: 0px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+input,textarea{
+    width: 300px;
+    border: 1px solid gray;
+    font-size: 100%
+}
+
+input{
+    height: 25px;
+}
+
+button{
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: "Hiragino Kaku Gothic ProN";
+    background-color:#ffffff;
+    border-radius: 5px;
+}
