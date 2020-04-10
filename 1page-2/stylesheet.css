@@ -19,7 +19,7 @@ html {
 }
 body {
   margin: 0;
-  font-family: "use-shirokuma";
+  font-family: "use-shirokuma", "Nikukyu";
   /* position: relative; */
   /*    font-weight: normal;*/
   /* font-family: 'M PLUS 1p', sans-serif; */
@@ -38,7 +38,7 @@ p {
 h1 span {
   background-color: white;
   font-size: 5rem;
-  font-family: "use-shirokuma";
+  font-family: "use-shirokuma", "M PLUS Rounded 1c";
 }
 
 header,

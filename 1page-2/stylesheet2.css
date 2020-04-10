@@ -1,0 +1,213 @@
+:root {
+  --bg-1: #ef7575;
+  --bg-2: #98ec9a;
+  --bg-3: #acdef1;
+  --bg-4: #fac4c4;
+  --bg-5: #fdea42;
+}
+
+@font-face {
+  font-family: "use-shirokuma";
+  src: url("/Users/saho/Library/Fonts/001Shirokuma-Regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "KozMin";
+  src: url("/Users/saho/Library/Fonts/Kozuka Mincho Pr6N R.ttf");
+}
+
+@font-face {
+  font-family: "MkPop";
+  src: url("/Users/saho/Library/Fonts/851MkPOP_002.ttf");
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  font-family: "use-shirokuma", "Nikukyu";
+  /* position: relative; */
+  /*    font-weight: normal;*/
+  /* font-family: 'M PLUS 1p', sans-serif; */
+}
+
+a {
+  /* text-decoration: none; */
+  color: gray;
+}
+
+p {
+  font-family: "KozMin";
+  font-weight: 40;
+  font-size: 1.6rem;
+  margin-bottom: 0;
+}
+
+h1 {
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+h1 span {
+  /* background-color: white; */
+  font-size: 5rem;
+  font-family: "use-shirokuma", "M PLUS Rounded 1c";
+  border-bottom: solid 3px black;
+}
+
+h2 {
+  margin-top: 0;
+  padding-top: 20px;
+  font-size: 3rem;
+}
+
+header,
+footer {
+  z-index: 10;
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  /* border-width: 10vh 10vw; */
+  /* border-style: solid; */
+  background-color: #666;
+  /* display: flex; */
+}
+
+footer {
+  /* position: absolute; */
+  position: fixed;
+  bottom: 0;
+  height: 10vh;
+  /* margin-top: 90vh; */
+}
+
+#box-title {
+  z-index: 20;
+  margin: 2vh auto;
+  text-align: center;
+  font-size: 4vh;
+  color: #fff;
+}
+
+#box-title span {
+  font-family: "MkPop";
+  border-bottom: solid 0.5px white;
+}
+
+main {
+  display: flex;
+}
+
+#left,
+#right {
+  width: 10%;
+  background-color: #666;
+  /* height: 100vh; */
+  /* display: flex; */
+}
+#contents {
+  padding: 10vh 0 9.5vh 0;
+  text-align: center;
+  width: 80%;
+  /* display: flex; */
+  /* box-sizing: border-box; */
+  /* padding: 10vh 50px; */
+}
+
+#SNS {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#SNS ul {
+  float: left;
+}
+#SNS img {
+  height: 20px;
+}
+
+#SNS a {
+  color: black;
+  font-size: 20px;
+}
+
+#SNS li {
+  line-height: 30px;
+  padding-top: 30px;
+}
+
+.link {
+  text-decoration: underline;
+  font-family: "use-shirokuma";
+  font-size: 30px;
+  color: gray;
+  padding-top: 20px;
+}
+
+#archive5 {
+  background-color: var(--bg-5);
+}
+#archive4 {
+  background-color: var(--bg-4);
+}
+#archive3 {
+  background-color: var(--bg-3);
+}
+#archive2 {
+  background-color: var(--bg-2);
+}
+#archive1 {
+  background-color: var(--bg-1);
+}
+#slash-4 {
+  /* position: absolute; */
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  /*ここで三角形のサイズを決める。
+      必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
+  border-width: 0 0 100px 80vw;
+  border-color: transparent transparent var(--bg-4) var(--bg-5);
+}
+
+#slash-3 {
+  /* position: absolute; */
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  /*ここで三角形のサイズを決める。
+      必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
+  border-width: 100px 0 0 80vw;
+  border-color: var(--bg-4) transparent transparent var(--bg-3);
+}
+
+#slash-2 {
+  /* position: absolute; */
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  /*ここで三角形のサイズを決める。
+      必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
+  border-width: 0 0 100px 80vw;
+  border-color: transparent transparent var(--bg-2) var(--bg-3);
+}
+#slash-1 {
+  /* position: absolute; */
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  /*ここで三角形のサイズを決める。
+    必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
+  border-width: 100px 0 0 80vw;
+  border-color: var(--bg-2) transparent transparent var(--bg-1);
+}
