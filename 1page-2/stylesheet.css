@@ -14,6 +14,9 @@
   src: url("/Users/saho/Library/Fonts/851MkPOP_002.ttf");
 }
 
+html {
+  font-size: 62.5%;
+}
 body {
   margin: 0;
   font-family: "use-shirokuma";
@@ -29,14 +32,15 @@ a {
 p {
   font-family: "KozMin";
   font-weight: 40;
-  font-size: 0.8rem;
+  font-size: 1.6rem;
 }
 
 h1 span {
   background-color: white;
-  font-size: 3rem;
+  font-size: 5rem;
   font-family: "use-shirokuma";
 }
+
 header,
 footer {
   z-index: 10;
@@ -52,7 +56,6 @@ footer {
 footer {
   /* position: absolute; */
   position: fixed;
-
   bottom: 0;
   height: 10vh;
   /* margin-top: 90vh; */
@@ -70,6 +73,7 @@ footer {
   font-family: "MkPop";
   border-bottom: solid 0.5px white;
 }
+
 /* #menu-btn{
     cursor: pointer;
     float: left;
@@ -127,6 +131,7 @@ ul{
 main {
   display: flex;
 }
+
 #left,
 #right {
   width: 10%;
@@ -157,11 +162,9 @@ main {
   width: 0;
   height: 0;
   border-style: solid;
-
   /*ここで三角形のサイズを決める。
     必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
   border-width: 100px 0 0 80vw;
-
   border-color: #fac4c4 transparent transparent #acdef1;
 }
 /* #about{
@@ -180,7 +183,7 @@ main {
 } */
 #about-contents p {
   text-align: left;
-  font-size: 0.8em;
+  /* font-size: 0.8em; */
 }
 
 #SNS {
@@ -218,11 +221,9 @@ main {
   width: 0;
   height: 0;
   border-style: solid;
-
   /*ここで三角形のサイズを決める。
     必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
   border-width: 0 0 100px 80vw;
-
   border-color: transparent transparent #98ec9a #acdef1;
 }
 
@@ -231,6 +232,11 @@ main {
   font-family: "Kozmin";
   background-color: #98ec9a;
   padding: 100px 15vw;
+}
+
+#concert h2 {
+  font-size: 3rem;
+  margin-bottom: -20px;
 }
 
 .link {
@@ -245,9 +251,6 @@ main {
   text-align: right;
 }
 
-#concert p {
-  font-size: 0.8em;
-}
 #next {
   margin-bottom: 180px;
 }
@@ -263,11 +266,9 @@ main {
   width: 0;
   height: 0;
   border-style: solid;
-
   /*ここで三角形のサイズを決める。
     必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
   border-width: 100px 0 0 80vw;
-
   border-color: #98ec9a transparent transparent #ef7575;
 }
 
