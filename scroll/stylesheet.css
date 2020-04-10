@@ -1,198 +1,193 @@
 body {
   margin: 0;
- font-family: "Hiragino Kaku Gothic ProN";
-/* font-family: 'M PLUS 1p', sans-serif; */
-
+  font-family: "Hiragino Kaku Gothic ProN";
+  /* font-family: 'M PLUS 1p', sans-serif; */
 }
 
 a {
   text-decoration: none;
 }
 
-#menu-btn{
-    cursor: pointer;
-    float: left;
-    display: none;    
-    position: fixed;
-    margin: 10px;
+#menu-btn {
+  cursor: pointer;
+  float: left;
+  display: none;
+  position: fixed;
+  margin: 10px;
 }
 
 #menu-btn div {
-    width: 50px;
-    height: 8px;
-    margin: 10px 0;
-    background-color: black;
-  }
-  
-#menu-modal{
-    z-index: 10;
-    background-color: white;
-    position: fixed;
-    top: 30px;
-    width: 300px;
-    height: 100vh;
-    display:none;  
+  width: 50px;
+  height: 8px;
+  margin: 10px 0;
+  background-color: black;
 }
 
-#menu-modal li{
-    font-size: 50px;
-    padding-top: 50px;
+#menu-modal {
+  z-index: 10;
+  background-color: white;
+  position: fixed;
+  top: 30px;
+  width: 300px;
+  height: 100vh;
+  display: none;
 }
 
-.menu{
-    background-color: gray;
-    float: left;
-    width: 15vw;
-    height: 100vh;
-    position: fixed;
-    
+#menu-modal li {
+  font-size: 50px;
+  padding-top: 50px;
 }
 
-ul{
-    flex-direction: column;
-    list-style-type: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.menu {
+  background-color: gray;
+  float: left;
+  width: 15vw;
+  height: 100vh;
+  position: fixed;
 }
 
-.menu li{
-    line-height: 20px;
-    font-size: 20px;
-    padding-top: 20px;
+ul {
+  flex-direction: column;
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.menu a{
-    color: black;
-
-}
-.menu a:hover{
-    background-color: #FEA0C2;
+.menu li {
+  line-height: 20px;
+  font-size: 20px;
+  padding-top: 20px;
 }
 
-main{
-    float: right;
-    width: 85vw;
-    box-sizing: border-box;
-    padding: 10vh 50px;
+.menu a {
+  color: black;
+}
+.menu a:hover {
+  background-color: #fea0c2;
 }
 
-#home{
-    padding-top: 45vh;
-    height: 100vh;
-    text-align: center;
-
+main {
+  float: right;
+  width: 85vw;
+  box-sizing: border-box;
+  padding: 10vh 50px;
 }
 
-#home img{
-    height: 35px;
+#home {
+  padding-top: 45vh;
+  height: 100vh;
+  text-align: center;
 }
-#home span{
-    font-size: 30px;
-    color: black;
+
+#home img {
+  height: 35px;
+}
+#home span {
+  font-size: 30px;
+  color: black;
 }
 
 /* #about{
     padding: 10vh 50px;
 } */
 
-#about-contents{
-    /* background-color: #F2F2F2; */
-    max-width: 500px;
-    margin: 0 auto;
-    margin-bottom: 200px;
+#about-contents {
+  /* background-color: #F2F2F2; */
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 200px;
 }
 
-h1{
-    text-align: center;    margin-bottom: 50px;
-
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
 }
-#about p{
-    text-align: left;
-}
-
-#SNS{
-    max-width: 500px;
-    margin: 0 auto;
+#about p {
+  text-align: left;
 }
 
-
-#SNS ul{
-    float: left;
-}
-#SNS img{
-    height: 20px;
+#SNS {
+  max-width: 500px;
+  margin: 0 auto;
 }
 
-#SNS a{
-    color: black;
-    font-size: 20px;
+#SNS ul {
+  float: left;
+}
+#SNS img {
+  height: 20px;
 }
 
-#SNS li{
-    line-height: 30px;
-    padding-top: 30px;
+#SNS a {
+  color: black;
+  font-size: 20px;
 }
 
-#twitter-feed{
-    float: right;
-    width: 300px;
-    height: 450px;
+#SNS li {
+  line-height: 30px;
+  padding-top: 30px;
 }
 
-#concert{
-    text-align: center;
+#twitter-feed {
+  float: right;
+  width: 300px;
+  height: 450px;
 }
 
-#concert h2{
-    margin-bottom: 40px;
-}
-#concert span{
-    font-size: 15px;
+#concert {
+  text-align: center;
 }
 
-#concert a{
-    text-decoration: underline;
+#concert h2 {
+  margin-bottom: 40px;
+}
+#concert span {
+  font-size: 15px;
 }
 
-#next{
-    margin-bottom: 180px;
+#concert a {
+  text-decoration: underline;
 }
 
-.archive{
-    margin-bottom: 150px;
-
+#next {
+  margin-bottom: 180px;
 }
 
-#contact-container{
-    max-width: 300px;
-    margin: 0 auto;
-    text-align: center;
+.archive {
+  margin-bottom: 150px;
 }
 
-#contact h1{
-    margin-bottom: 0px;
+#contact-container {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-#contact p{
-    margin-bottom: 0px;
-    margin-top: 30px;
-    text-align: left;
+#contact h1 {
+  margin-bottom: 0px;
 }
 
-input,textarea{
-    width: 300px;
-    border: 1px solid gray;
-    font-size: 100%
+#contact p {
+  margin-bottom: 0px;
+  margin-top: 30px;
+  text-align: left;
 }
 
-input{
-    height: 25px;
+input,
+textarea {
+  width: 300px;
+  border: 1px solid gray;
+  font-size: 100%;
 }
 
-button{
-    margin-top: 30px;
-    font-size: 15px;
-    font-family: "Hiragino Kaku Gothic ProN";
-    background-color:#ffffff;
-    border-radius: 5px;
+input {
+  height: 25px;
+}
+
+button {
+  margin-top: 30px;
+  font-size: 15px;
+  font-family: "Hiragino Kaku Gothic ProN";
+  background-color: #ffffff;
+  border-radius: 5px;
 }
