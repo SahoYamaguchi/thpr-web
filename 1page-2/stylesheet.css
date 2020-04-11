@@ -13,7 +13,7 @@ html {
 }
 body {
   margin: 0;
-  font-family: "use-shirokuma", "Nikukyu";
+  font-family: "use-shirokuma";
   /* position: relative; */
   /*    font-weight: normal;*/
   /* font-family: 'M PLUS 1p', sans-serif; */
@@ -24,7 +24,7 @@ body {
 } */
 
 p {
-  font-family: "KozMin";
+  font-family: "Sawarabi Mincho";
   font-weight: 40;
   font-size: 1.6rem;
 }
