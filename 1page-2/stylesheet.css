@@ -231,6 +231,7 @@ main {
   font-family: "Sawarabi Mincho";
   background-color: #98ec9a;
   padding: 100px 15vw;
+  letter-spacing: 0.4rem;
 }
 
 #concert h2 {
