@@ -25,9 +25,9 @@ body {
   /* font-family: 'M PLUS 1p', sans-serif; */
 }
 
-a {
+/* a {
   text-decoration: none;
-}
+} */
 
 p {
   font-family: "KozMin";
@@ -49,7 +49,7 @@ footer {
   height: 10vh;
   /* border-width: 10vh 10vw; */
   /* border-style: solid; */
-  background-color: #666;
+  background-color: #bcbcbc;
   /* display: flex; */
 }
 
@@ -134,25 +134,31 @@ main {
 
 #left,
 #right {
-  width: 10%;
-  background-color: #666;
+  width: 6%;
+  background-color: #bcbcbc;
   /* height: 100vh; */
   /* display: flex; */
 }
 #content {
   float: left;
-  width: 80%;
+  width: 88%;
   /* display: flex; */
   /* box-sizing: border-box; */
   /* padding: 10vh 50px; */
 }
 
 #title {
-  padding-top: 30vh;
+  /* padding-top: 30vh;
   height: 50vh;
-  font-size: 20vw;
-  text-align: center;
+  /* width: 120vw; */
+  /* font-size: 22vw; */
+  /* text-align: center; */
+  padding: 50vh 0 10vh;
   background-color: #fac4c4;
+}
+
+#img_title {
+  width: 88vw;
 }
 
 #slash-1 {
@@ -164,7 +170,7 @@ main {
   border-style: solid;
   /*ここで三角形のサイズを決める。
     必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
-  border-width: 100px 0 0 80vw;
+  border-width: 300px 0 0 88vw;
   border-color: #fac4c4 transparent transparent #acdef1;
 }
 /* #about{
@@ -174,7 +180,7 @@ main {
 #about-contents {
   background-color: #acdef1;
   /* max-width: 500px; */
-  padding: 100px 15vw;
+  padding: 3vh 3vw 100px;
   /* margin-bottom: 200px; */
 }
 
@@ -182,7 +188,12 @@ main {
     text-align: center;    margin-bottom: 50px;
 } */
 #about-contents p {
+  margin-top: -40px;
   text-align: left;
+  padding: 40px 80px;
+  border: solid 4px gray;
+  line-height: 5rem;
+  letter-spacing: 0.4rem;
   /* font-size: 0.8em; */
 }
 
@@ -208,12 +219,6 @@ main {
   padding-top: 30px;
 }
 
-#twitter-feed {
-  float: right;
-  width: 300px;
-  height: 450px;
-}
-
 #slash-2 {
   /* position: absolute; */
   bottom: 0;
@@ -223,7 +228,7 @@ main {
   border-style: solid;
   /*ここで三角形のサイズを決める。
     必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
-  border-width: 0 0 100px 80vw;
+  border-width: 0 0 100px 88vw;
   border-color: transparent transparent #98ec9a #acdef1;
 }
 
@@ -236,7 +241,20 @@ main {
 
 #concert h2 {
   font-size: 3rem;
-  margin-bottom: -20px;
+  /* margin-bottom: -20px; */
+  /* color: white; */
+  text-align: center;
+  /* font-family: "use-shirokuma"; */
+}
+
+#concert h1 {
+  margin-top: -20px;
+  text-align: right;
+}
+
+#next-text {
+  padding: 0 80px 40px;
+  border: solid 10px #adadae;
 }
 
 .link {
@@ -244,15 +262,7 @@ main {
   font-family: "use-shirokuma";
   font-size: 30px;
   color: gray;
-  padding-top: 20px;
-}
-
-#concert h1 {
-  text-align: right;
-}
-
-#next {
-  margin-bottom: 180px;
+  padding: 20px;
 }
 
 .archive {
@@ -268,7 +278,7 @@ main {
   border-style: solid;
   /*ここで三角形のサイズを決める。
     必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
-  border-width: 100px 0 0 80vw;
+  border-width: 100px 0 0 88vw;
   border-color: #98ec9a transparent transparent #ef7575;
 }
 
@@ -276,6 +286,10 @@ main {
   text-align: center;
   background-color: #ef7575;
   padding: 100px 0vw;
+}
+
+#movie a {
+  color: white;
 }
 
 #contact {

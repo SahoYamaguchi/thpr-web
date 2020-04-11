@@ -59,7 +59,7 @@ h1 span {
 
 h2 {
   margin-top: 0;
-  padding-top: 20px;
+  padding-top: 40px;
   font-size: 3rem;
 }
 
@@ -71,8 +71,9 @@ footer {
   height: 10vh;
   /* border-width: 10vh 10vw; */
   /* border-style: solid; */
-  background-color: #666;
+  background-color: #bcbcbc;
   /* display: flex; */
+  text-align: center;
 }
 
 footer {
@@ -86,7 +87,7 @@ footer {
 #box-title {
   z-index: 20;
   margin: 2vh auto;
-  text-align: center;
+  /* text-align: center; */
   font-size: 4vh;
   color: #fff;
 }
@@ -102,15 +103,15 @@ main {
 
 #left,
 #right {
-  width: 10%;
-  background-color: #666;
+  width: 6%;
+  background-color: #bcbcbc;
   /* height: 100vh; */
   /* display: flex; */
 }
 #contents {
   padding: 10vh 0 9.5vh 0;
   text-align: center;
-  width: 80%;
+  width: 88%;
   /* display: flex; */
   /* box-sizing: border-box; */
   /* padding: 10vh 50px; */
@@ -141,9 +142,10 @@ main {
 .link {
   text-decoration: underline;
   font-family: "use-shirokuma";
-  font-size: 30px;
+  font-size: 4vh;
   color: gray;
-  padding-top: 20px;
+  /* padding-bottom: 20px; */
+  padding: auto;
 }
 
 #archive5 {
@@ -170,7 +172,7 @@ main {
   border-style: solid;
   /*ここで三角形のサイズを決める。
       必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
-  border-width: 0 0 100px 80vw;
+  border-width: 0 0 200px 88vw;
   border-color: transparent transparent var(--bg-4) var(--bg-5);
 }
 
@@ -183,7 +185,7 @@ main {
   border-style: solid;
   /*ここで三角形のサイズを決める。
       必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
-  border-width: 100px 0 0 80vw;
+  border-width: 200px 0 0 88vw;
   border-color: var(--bg-4) transparent transparent var(--bg-3);
 }
 
@@ -196,7 +198,7 @@ main {
   border-style: solid;
   /*ここで三角形のサイズを決める。
       必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
-  border-width: 0 0 100px 80vw;
+  border-width: 0 0 200px 88vw;
   border-color: transparent transparent var(--bg-2) var(--bg-3);
 }
 #slash-1 {
@@ -208,6 +210,6 @@ main {
   border-style: solid;
   /*ここで三角形のサイズを決める。
     必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
-  border-width: 100px 0 0 80vw;
+  border-width: 200px 0 0 88vw;
   border-color: var(--bg-2) transparent transparent var(--bg-1);
 }
