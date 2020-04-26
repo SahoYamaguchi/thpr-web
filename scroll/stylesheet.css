@@ -39,9 +39,9 @@ a {
 }
 
 .menu {
-  background-color: gray;
+  background-color: #f5f7fe;
   float: left;
-  width: 15vw;
+  width: 10vw;
   height: 100vh;
   position: fixed;
 }
@@ -49,14 +49,18 @@ a {
 ul {
   flex-direction: column;
   list-style-type: none;
-  margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .menu li {
   line-height: 20px;
   font-size: 20px;
-  padding-top: 20px;
+  margin-top: 20px;
+  margin-left: -1vw;
+}
+
+.menu li:first-child {
+  margin-top: 35vh;
 }
 
 .menu a {
@@ -68,7 +72,7 @@ ul {
 
 main {
   float: right;
-  width: 85vw;
+  width: 90vw;
   box-sizing: border-box;
   padding: 10vh 50px;
 }
@@ -77,14 +81,17 @@ main {
   padding-top: 45vh;
   height: 100vh;
   text-align: center;
+  background-image: url(./img/top.jpg);
+  background-size: cover;
 }
 
 #home img {
-  height: 35px;
+  height: 55px;
 }
+
 #home span {
-  font-size: 30px;
-  color: black;
+  font-size: 50px;
+  color: white;
 }
 
 /* #about{
