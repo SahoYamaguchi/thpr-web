@@ -1,0 +1,294 @@
+@font-face {
+  font-family: "makinas";
+  src: url("../fonts/Makinas-4-Square.otf") format("opentype");
+}
+
+body {
+  margin: 0;
+  font-family: "Sawarabi Gothic";
+}
+
+h1 {
+  margin: 0;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  height: 60px;
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+
+header .inner {
+  margin-left: 50%;
+  margin-right: 20%;
+  width: 30%;
+  max-width: 100%;
+  padding: 0 40px;
+  background-color: rgba(256, 256, 256, 0.8);
+  border-radius: 47px;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+}
+
+header .flexbox {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-global ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.nav-global li {
+  margin: 0 15px;
+}
+
+.nav-global a {
+  text-decoration: none;
+}
+
+.nav {
+  color: #333;
+  position: relative;
+  display: inline-block;
+}
+
+.nav::after {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 10px;
+  background: rgba(184, 184, 184, 0.8);
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: transform 0.3s;
+}
+
+.nav:hover::after {
+  transform: scale(1, 1);
+}
+
+.nav-now {
+  padding: 10px;
+  background-color: #ebff28;
+  border-radius: 10px;
+  margin: -10px;
+}
+
+footer {
+  background-color: #b8b8b8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .flexbox {
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 20%;
+}
+
+footer ul {
+  list-style: none;
+  width: 30%;
+  padding-right: 0;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+footer .now {
+  background-color: #dae13f;
+}
+
+footer li:hover {
+  background-color: gray;
+}
+
+.footer_right {
+  width: 70%;
+  text-align: center;
+  color: white;
+}
+
+.footer_right h2 {
+  font-family: "makinas";
+  color: #ebff28;
+}
+
+.sns_icon {
+  width: 10%;
+  justify-content: center;
+}
+
+footer img {
+  width: 40%;
+}
+
+.page_title {
+  font-family: "makinas";
+  background-color: #0071a3;
+  margin: 50px;
+  color: white;
+  font-size: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page_title img {
+  width: 20%;
+}
+
+/* top */
+
+#top img {
+  width: 55%;
+  margin: 30px auto;
+  background-color: #0071a3;
+  padding: 30px 100px;
+}
+
+.top_bg {
+  background-image: url(../img/stripe_top.png);
+  background-size: cover;
+}
+
+#news {
+  width: 50%;
+  margin: 2.5%;
+  margin-left: 20%;
+}
+
+#news h1 {
+  text-align: center;
+}
+
+#news h2 {
+  background-image: url(../img/stick.png);
+  background-size: 100%;
+  height: 30px;
+  font-size: 1.5rem;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+}
+
+.date {
+  text-align: right;
+  margin-top: -30px;
+}
+
+#news article {
+  margin: 50px 0;
+  margin-bottom: 150px;
+  padding: 30px 50px;
+  background-color: rgba(256, 256, 256, 0.8);
+}
+#sns {
+  width: 30%;
+  margin: 140px 20% 2.5% 2.5%;
+  margin-right: 20%;
+}
+
+#sns iframe {
+  margin-top: 100px;
+}
+
+/* about */
+.about_bg {
+  background-image: url(../img/stripe_about.png);
+  background-size: cover;
+}
+
+#about {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 70%;
+}
+
+#about p {
+  background-color: rgba(256, 256, 256, 0.8);
+  margin: 200px auto;
+  padding: 30px 50px;
+  font-size: 1.5rem;
+  line-height: 5rem;
+}
+
+/* movies */
+.movies_bg {
+  background-image: url(../img/stripe_movies.png);
+  background-size: cover;
+}
+
+.movies {
+  margin: 100px auto;
+  text-align: center;
+}
+
+.movies h2 span {
+  font-family: "makinas";
+  background-color: #f92d2d;
+  font-size: 3rem;
+  padding: 10px;
+  border-bottom: 5px solid gray;
+  border-right: 5px solid gray;
+}
+
+.movies h2 span:hover {
+  transform: translate(10px, 10px);
+  border-bottom: none;
+  border-right: none;
+}
+
+.movies a {
+  text-decoration: none;
+  color: white;
+}
+
+.movies img {
+  height: 3rem;
+}
+
+.movies iframe {
+  width: 75%;
+  height: 70vh;
+  margin: 50px;
+}
+
+/* history */
+.history_bg {
+  background-image: url(../img/stripe_history.png);
+  background-size: cover;
+}
+
+.history img {
+  margin: 50px 35%;
+  width: 30%;
+}
+
+.history article {
+  margin-bottom: 50px;
+}
+.history article img {
+  width: 20%;
+  height: 100%;
+  margin: 0 10% 0 20%;
+}
+
+/* contact */
+.contact img {
+  width: 50%;
+  margin: 0 25%;
+}
