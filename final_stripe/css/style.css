@@ -237,24 +237,114 @@ footer img {
   text-align: center;
 }
 
-.movies h2 span {
+.movies button span {
   font-family: "makinas";
-  background-color: #f92d2d;
+  background-color: rgb(77, 77, 74);
   font-size: 3rem;
   padding: 10px;
-  border-bottom: 5px solid gray;
-  border-right: 5px solid gray;
+  /* border-bottom: 5px solid gray;
+  border-right: 5px solid gray; */
 }
 
-.movies h2 span:hover {
+/* .movies h2 span:hover {
   transform: translate(10px, 10px);
   border-bottom: none;
   border-right: none;
+} */
+
+.movies button {
+  display: inline-block;
+  position: relative;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 20px 30px;
+  padding: 10px;
+}
+
+.movies span {
+  display: block;
+  padding: 25px 80px;
+}
+
+.movies button::before,
+.movies button::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #f92d2d;
+}
+
+.movies span::before,
+.movies span::after {
+  content: "";
+  width: 2px;
+  height: 0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #f92d2d;
+}
+
+.movies button:hover::before,
+.movies button:hover::after {
+  width: 100%;
+}
+
+.movies button:hover span::before,
+.movies button:hover span::after {
+  height: 100%;
+}
+
+.movies .btn-1::before,
+.movies .btn-1::after {
+  transition-delay: 0.2s;
+}
+
+.movies .btn-1 span::before,
+.movies .btn-1 span::after {
+  transition-delay: 0s;
+}
+
+.movies .btn-1::before {
+  right: 0;
+  top: 0;
+}
+
+.movies .btn-1::after {
+  left: 0;
+  bottom: 0;
+}
+
+.movies .btn-1 span::before {
+  left: 0;
+  top: 0;
+}
+
+.movies .btn-1 span::after {
+  right: 0;
+  bottom: 0;
+}
+
+.movies .btn-1:hover::before,
+.movies .btn-1:hover::after {
+  transition-delay: 0s;
+}
+
+.movies .btn-1:hover span::before,
+.movies .btn-1:hover span::after {
+  transition-delay: 0.2s;
 }
 
 .movies a {
   text-decoration: none;
-  color: white;
+  color: #fff;
+}
+
+.movies button span:hover {
+  background-color: #f92d2d;
 }
 
 .movies img {
