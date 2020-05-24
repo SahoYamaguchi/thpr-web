@@ -154,11 +154,12 @@ footer img {
   background-color: white;
   /* margin-left: 20px; */
   padding: 0 10px;
+  margin-bottom: 30px;
 }
 
 .date {
-  margin-top: 30px;
-  text-align: right;
+  color: gray;
+  /* text-align: right; */
 }
 
 article {
