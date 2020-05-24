@@ -1,0 +1,352 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+header {
+  align-items: center;
+  background: #fff;
+  border-bottom: solid 2px gray;
+  display: flex;
+  height: 60px;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+header .inner {
+  margin: auto;
+  max-width: 100%;
+  width: 1020px;
+}
+
+header .phone_nav {
+  max-width: 100%;
+  width: 100%;
+  display: none;
+}
+
+header #menu_modal {
+  display: none;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+}
+
+header .flexbox {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-global ul {
+  list-style: none;
+}
+
+.nav-global li {
+  margin: 0 15px;
+}
+
+.nav-global li:last-child {
+  margin-right: 50px;
+}
+
+.nav-global a {
+  text-decoration: none;
+}
+
+.nav {
+  color: #333;
+  position: relative;
+  display: inline-block;
+}
+
+.nav::after {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 10px;
+  background: rgba(101, 198, 198, 0.8);
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: transform 0.3s;
+}
+
+.nav:hover::after {
+  transform: scale(1, 1);
+}
+
+.nav-now {
+  padding: 10px;
+  color: #fff;
+  background-color: #65c6c6;
+  border-radius: 10px;
+  margin: -10px;
+}
+
+footer {
+  background-color: #65c6c6;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+footer .flexbox {
+  justify-content: center;
+  margin: 0 auto;
+}
+
+footer ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+footer img {
+  height: 40px;
+  margin: 0 20px;
+}
+
+/* top */
+
+#top img {
+  width: 50%;
+  margin: 30px auto;
+  background-color: #65c6c6;
+  padding: 50px 100px;
+}
+
+#top_container {
+  background-image: url(../img/bg-top.png);
+  margin-top: -100px;
+  background-size: cover;
+}
+
+#description {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 100px;
+}
+
+#news {
+  width: 50%;
+  margin: 2.5%;
+  margin-left: 20%;
+}
+
+#news h1 {
+  /* background-image: url(../img/stick.png);
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat; */
+  height: 30px;
+  padding-bottom: 10px;
+}
+
+#news h1 span {
+  background-color: white;
+  /* margin-left: 20px; */
+  padding: 0 10px;
+}
+
+.date {
+  margin-top: 30px;
+  text-align: right;
+}
+
+article {
+  margin: 50px 0;
+  margin-bottom: 100px;
+  padding: 25px;
+  border: 2px solid #65c6c6;
+  background-color: white;
+}
+
+#sns {
+  width: 30%;
+  margin: 2.5%;
+  margin-right: 20%;
+}
+
+#sns .fb-container {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 500px;
+}
+/* about */
+
+#about_h1 {
+  padding-top: 50px;
+  color: #65c6c6;
+  text-align: center;
+}
+
+#about {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 60%;
+  background-image: url(../img/bg-about.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 100px 20%;
+  line-height: 2.5em;
+}
+
+#about img {
+  width: 100%;
+}
+
+/* movies */
+
+.movies {
+  padding: 100px auto;
+  text-align: center;
+  background-image: url(../img/bg-top.png);
+  background-size: cover;
+}
+
+.movies h1 {
+  padding: 50px 0;
+  color: #65c6c6;
+  text-align: center;
+}
+
+.movies button span {
+  background-color: rgb(77, 77, 74);
+  font-size: 1rem;
+  /* border-bottom: 5px solid gray;
+  border-right: 5px solid gray; */
+}
+
+.movies button {
+  display: inline-block;
+  position: relative;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 20px 30px;
+  padding: 10px;
+}
+
+.movies span {
+  display: block;
+  padding: 25px 80px;
+}
+
+.movies button::before,
+.movies button::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #f92d2d;
+}
+
+.movies span::before,
+.movies span::after {
+  content: "";
+  width: 2px;
+  height: 0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #f92d2d;
+}
+
+.movies button:hover::before,
+.movies button:hover::after {
+  width: 100%;
+}
+
+.movies button:hover span::before,
+.movies button:hover span::after {
+  height: 100%;
+}
+
+.movies .btn-1::before,
+.movies .btn-1::after {
+  transition-delay: 0.2s;
+}
+
+.movies .btn-1 span::before,
+.movies .btn-1 span::after {
+  transition-delay: 0s;
+}
+
+.movies .btn-1::before {
+  right: 0;
+  top: 0;
+}
+
+.movies .btn-1::after {
+  left: 0;
+  bottom: 0;
+}
+
+.movies .btn-1 span::before {
+  left: 0;
+  top: 0;
+}
+
+.movies .btn-1 span::after {
+  right: 0;
+  bottom: 0;
+}
+
+.movies .btn-1:hover::before,
+.movies .btn-1:hover::after {
+  transition-delay: 0s;
+}
+
+.movies .btn-1:hover span::before,
+.movies .btn-1:hover span::after {
+  transition-delay: 0.2s;
+}
+
+.movies a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.movies button span:hover {
+  background-color: #f92d2d;
+}
+
+.movies a {
+  text-decoration: none;
+}
+.movies iframe {
+  width: 75%;
+  height: 70vh;
+  margin: 50px;
+}
+
+/* history */
+.history h1 {
+  padding: 50px 0;
+  color: #65c6c6;
+  text-align: center;
+}
+
+.history img {
+  margin: 0 35%;
+  width: 30%;
+}
+
+.history article img {
+  width: 20%;
+  height: 100%;
+  margin: 0 10% 0 20%;
+}
+
+.history article {
+  border: none;
+}
