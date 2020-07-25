@@ -79,6 +79,7 @@
 
   #top_container {
     background-size: contain;
+    background-position-y: -50px;
   }
 
   #news h1 {
@@ -92,7 +93,7 @@
   #news,
   #sns {
     width: 80%;
-    margin: 0 10%;
+    margin: 0 auto;
   }
 
   #sns {

@@ -133,6 +133,7 @@ footer img {
 
 #top_container {
   background-image: url(../img/bg-top.png);
+  background-position-y: -100px;
   margin-top: -100px;
   background-size: cover;
 }
@@ -180,15 +181,27 @@ article {
 
 #sns {
   width: 30%;
-  margin: 2.5%;
+  margin: 2.5% auto;
   margin-right: 20%;
-}
-
-#sns .fb-container {
-  margin-top: 50px;
-  width: 100%;
   max-width: 500px;
 }
+
+.facebook-wrapper {
+  width: 100%;
+  margin-top: 50px;
+  border: 2px solid #65c6c6;
+}
+
+.facebook-wrapper > .fb-page {
+  width: 100%;
+}
+
+.facebook-wrapper > .fb-page > span,
+.facebook-wrapper iframe {
+  width: 100% !important;
+  height: 400px !important;
+}
+
 /* about */
 
 #about_h1 {
@@ -220,6 +233,7 @@ article {
   text-align: center;
   background-image: url(../img/bg-top.png);
   background-size: cover;
+  background-position-y: -150px;
 }
 
 .movies h1 {
@@ -227,6 +241,13 @@ article {
   padding: 50px 0;
   color: #65c6c6;
   text-align: center;
+}
+
+.movies p {
+  background-color: white;
+  width: 75%;
+  text-align: center;
+  margin-left: 12.5%;
 }
 
 .movies button span {
@@ -243,7 +264,7 @@ article {
   border: none;
   font-size: 18px;
   cursor: pointer;
-  margin: 20px 30px;
+  margin: 10px 30px 20px;
   padding: 10px;
 }
 
@@ -357,7 +378,7 @@ article {
 .history article img {
   width: 20%;
   height: 100%;
-  margin: 25px 10% 0 20%;
+  margin: 25px 5% 0 25%;
 }
 
 .history article {

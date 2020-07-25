@@ -18,6 +18,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v7.0"
+      nonce="F7IJWzfD"
+    ></script>
     <header>
       <div class="inner">
         <nav class="nav-global">
@@ -33,7 +41,7 @@
       <div class="phone_nav">
         <img src="img/menu.png" alt="メニューボタン" class="menu" />
         <div id="menu_modal" class="flexbox">
-          <span id="close"><img src="img/cross.png" alt="close"/></span>
+          <span id="close"><img src="img/cross.png" alt="close" /></span>
           <ul>
             <li><a href="top.html" class="nav-now">Top</a></li>
             <li><a href="about.html" class="nav">About</a></li>
@@ -104,11 +112,15 @@
             class="movie"
             src="https://www.youtube.com/embed/6f7Yz30PSoY"
             frameborder="0"
-            style="margin-bottom: 50px;border:2px solid #65c6c6; margin-top: 50px;"
+            style="
+              margin-bottom: 50px;
+              border: 2px solid #65c6c6;
+              margin-top: 50px;
+            "
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-          <div style="border:2px solid #65c6c6;padding:0;">
+          <div style="border: 2px solid #65c6c6; padding: 0;">
             <a
               class="twitter-timeline"
               data-height="400"
@@ -122,18 +134,19 @@
               charset="utf-8"
             ></script>
           </div>
-          <div class="fb-container">
+          <div class="facebook-wrapper"></div>
+          <!-- <div class="fb-container">
             <iframe
               src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTHPRensemble&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
               height="500"
               width="320"
-              style="border: 2px solid #65c6c6;overflow:hidden"
+              style="border: 2px solid #65c6c6; overflow: hidden;"
               scrolling="no"
               frameborder="0"
               allowTransparency="true"
               allow="encrypted-media"
             ></iframe>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
