@@ -35,7 +35,7 @@ $(function () {
   function pagePluginCode(w) {
     // 幅に応じて高さを変更する場合は、変数 h に高さの値を代入
     var h = 1000;
-    console.log(w + "," + h);
+    // console.log(w + "," + h);
     return (
       '<div class="fb-page" data-href="https://www.facebook.com/THPRensemble/" data-tabs="timeline" data-width="' +
       w +

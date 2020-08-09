@@ -127,6 +127,15 @@
     background-color: white;
   }
 
+  .movies {
+    background-position-y: 0px;
+  }
+
+  .movies p {
+    background-color: white;
+    text-align: left;
+  }
+
   .movies iframe {
     width: 75%;
     height: 46%;
