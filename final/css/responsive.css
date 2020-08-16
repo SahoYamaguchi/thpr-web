@@ -14,8 +14,8 @@
   }
 
   header .phone_nav ul img {
-    height: 40px;
-    margin: 0 20px;
+    height: 35px;
+    margin: 0 15px;
   }
 
   header .menu {
@@ -102,6 +102,10 @@
 
   #sns iframe {
     width: 100%;
+  }
+
+  #sns iframe:first-child {
+    margin-top: 50px;
   }
 
   #about_container {
